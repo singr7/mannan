@@ -1,15 +1,31 @@
+/* style.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
+/* Header styles */
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 10px;
 }
 
 nav a {
@@ -22,13 +38,40 @@ nav a:hover {
     background-color: #555;
 }
 
+/* Section styles */
 section {
     padding: 2rem;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
 }
 
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+/* Center content on small screens */
+@media (max-width: 600px) {
+    header, section, footer {
+        padding: 1rem;
+    }
 }
