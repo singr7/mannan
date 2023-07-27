@@ -13,6 +13,7 @@ body {
     line-height: 1.6;
     background-color: #f7f7f7;
     color: #333;
+    margin: 0;
 }
 
 /* Header styles */
@@ -20,22 +21,33 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
 }
 
 /* Navigation styles */
 nav {
-    margin-top: 10px;
+    text-align: center;
 }
 
 nav a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
-    padding: 10px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #333;
+    color: #fff;
 }
 
 /* Section styles */
@@ -44,21 +56,19 @@ section {
     margin: 20px 0;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-}
-
-h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
 }
 
 p {
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
 }
 
 /* Footer styles */
